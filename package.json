@@ -1,0 +1,34 @@
+{
+  "name": "scholarlee-postgres",
+  "version": "1.0.0",
+  "description": "a web app that tracks students and their tutoring",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server/index.js",
+    "webpack": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marketgai/ScholarLee-tracker.git"
+  },
+  "author": "Marcus Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marketgai/ScholarLee-tracker/issues"
+  },
+  "homepage": "https://github.com/marketgai/ScholarLee-tracker#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
